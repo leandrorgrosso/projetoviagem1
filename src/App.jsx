@@ -6,8 +6,8 @@ import Disney from "./pages/navbar/Disney";
 import Turismo from "./pages/navbar/Turismo";
 import SobreNos from "./pages/navbar/SobreNos";
 import Brasil from "./pages/paises/paginabrasil";
-import Italia from "./pages/paises/italia";
-import Japao from "./pages/paises/japao";
+import Italia from "./pages/paises/paginaitalia";
+import Japao from "./pages/paises/paginajapao";
 import Mexico from "./pages/paises/mexico";
 
 import "./App.css";
