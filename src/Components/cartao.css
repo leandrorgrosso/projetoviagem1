@@ -1,0 +1,61 @@
+.blocoo {
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+  margin: 2%;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 10px;
+  padding-bottom: 1%;
+
+  h2 {
+    padding: 3% 0% 3%;
+    text-align: center;
+    font-size: 1.6vw;
+    text-align: left;
+    padding-left: 3%;
+  }
+  h1 {
+    font-size: 2vw;
+    text-align: left;
+    padding-left: 3%;
+  }
+
+  p {
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 120%;
+    text-align: left;
+    padding-left: 3%;
+  }
+}
+
+.imagem {
+  border-radius: 10px;
+  padding: 0;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.alugar {
+  background-color: #ecebe4;
+  font-size: 1.2vw;
+  padding: 2%;
+  opacity: 0.9;
+  color: #85847e;
+}
+
+.alugado {
+  background-color: rgb(16, 16, 16);
+  color: #ffffff;
+  font-size: 1.2vw;
+  padding: 2%;
+}

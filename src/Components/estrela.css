@@ -1,0 +1,43 @@
+.stars {
+    display: flex; /* Define um layout flexível para os elementos filhos */
+    justify-content: center; /* Centraliza os elementos dentro do contêiner */
+}
+
+/* Esconde os inputs do tipo rádio para que apenas as estrelas (labels) fiquem visíveis */
+.stars:not(:checked) > input {
+    position: absolute;
+    appearance: none;
+}
+
+/* Estiliza as labels para parecerem estrelas clicáveis */
+.stars:not(:checked) > label {
+    float: right; /* Inverte a ordem das estrelas para funcionamento correto */
+    cursor: pointer; /* Define o cursor como ponteiro ao passar sobre as estrelas */
+    font-size: 30px; /* Define o tamanho das estrelas */
+    color: #666; /* Cor padrão das estrelas não selecionadas */
+}
+
+/* Adiciona o conteúdo de uma estrela dentro das labels */
+.stars:not(:checked) > label:before {
+    content: '★';
+}
+
+/* Muda a cor das estrelas quando o usuário passa o mouse sobre elas */
+.stars > input:checked + label:hover,
+.stars > input:checked + label:hover ~ label,
+.stars > input:checked ~ label:hover,
+.stars > input:checked ~ label:hover ~ label,
+.stars > label:hover ~ input:checked ~ label {
+    color: #e58e09; /* Tom mais escuro para destacar */
+}
+
+/* Efeito de hover quando nenhuma estrela está selecionada */
+.stars:not(:checked) > label:hover,
+.stars:not(:checked) > label:hover ~ label {
+    color: #ff9e0b; /* Cor laranja quando o usuário passa o mouse */
+}
+
+/* Define a cor das estrelas quando uma delas é selecionada */
+.stars > input:checked ~ label {
+    color: #ffa723; /* Cor laranja mais suave para destacar a seleção */
+}

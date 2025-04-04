@@ -1,0 +1,144 @@
+.blocos{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.bloco {
+  margin: 2%;
+  background-color: #ffffff;
+  color: black;
+ height: 100%;
+  border-radius: 10px;
+  padding-bottom: 1%;
+
+
+
+
+  h2 {
+    padding: 3% 0% 3%;
+    text-align: center;
+    font-size: 1.6vw;
+    text-align: left;
+    padding-left: 3%;
+    
+  }
+  h1 {
+    font-size: 2vw;
+    text-align: left;
+    padding-left: 3%;
+  }
+
+  p {
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 120%;
+    text-align: left;
+    padding-left: 3%;
+  }
+}
+
+.imagem {
+width: 100%;
+  border-radius: 10px;
+  padding: 0;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 200%;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.cor-container {
+  h2 {
+    color: black;
+  }
+  margin-left: 5%;
+}
+
+.form {
+  margin-left: 5%;
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: bisque;
+  }
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: bisque;
+  }
+}
+
+.escuro {
+  padding: 10%;
+  background-color: black;
+  color: white;
+  input {
+    margin: auto;
+  }
+}
+
+.claro {
+  padding: 10%;
+  background-color: white;
+  color: black;
+  input {
+    margin: auto;
+  }
+}
+
+.adicionar {
+  color: green;
+}
+
+.retirar {
+  color: red;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+.vermelho {
+  padding: 2% 4vw 10% 4vw;
+  color: white;
+  button {
+    background-color: red;
+  }
+  border-radius: 10px;
+}
+
+.azul {
+  padding: 2% 4vw 10% 4vw;
+  color: white;
+  button {
+    background-color: blue;
+  }
+  border-radius: 5px;
+}
+
+.estrelas {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}

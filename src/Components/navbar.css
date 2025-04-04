@@ -1,0 +1,22 @@
+.navbar{
+font-size: 2vw;
+  li{
+    list-style-type:none;
+padding: 3%;
+  }
+
+  ul{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+}
+.link{
+    text-decoration: none;
+color: black;
+  }
+
+.link:hover{
+    color: #0467e0;
+}
