@@ -8,7 +8,7 @@ import SobreNos from "./pages/navbar/SobreNos";
 import Brasil from "./pages/paises/paginabrasil";
 import Italia from "./pages/paises/paginaitalia";
 import Japao from "./pages/paises/paginajapao";
-import Mexico from "./pages/paises/mexico";
+import Mexico from "./pages/paises/paginamexico";
 
 import "./App.css";
 
