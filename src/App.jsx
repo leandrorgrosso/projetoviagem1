@@ -5,10 +5,10 @@ import Carros from "./pages/navbar/Carros";
 import Disney from "./pages/navbar/Disney";
 import Turismo from "./pages/navbar/Turismo";
 import SobreNos from "./pages/navbar/SobreNos";
+import Brasil from "./pages/paises/Brasil";
 import Italia from "./pages/paises/Italia";
 import Japao from "./pages/paises/Japao";
 import Mexico from "./pages/paises/Mexico";
-import Brasil from "./pages/paises/Brasil";
 
 import "./App.css";
 
