@@ -1,10 +1,10 @@
 import Header from "../../components/header.jsx";
 import Footer from "../../components/footer.jsx";
 import NavBar from "../../components/navBar.jsx";
-import Instagram from "/instagram.png";
-import Gmail from "/gmail.png";
+// import Instagram from "/instagram.png";
+// import Gmail from "/gmail.png";
 import Cartao from "../../components/cartao.jsx";
-import Carro from "/carro.png";
+// import Carro from "/carro.png";
 
 import "../../App.css";
 
@@ -12,11 +12,11 @@ function Carros() {
   return (
     <div>
       <Header />
-     
-        <NavBar />
-        <article className="blocoss">
+
+      <NavBar />
+      <article className="blocoss">
         <Cartao
-          img={Carro}
+          img="/carro.png"
           viagem="Carro Econômico"
           saida="Em Lisboa"
           info="Com Budget"
@@ -26,7 +26,7 @@ function Carros() {
         />
 
         <Cartao
-          img={Carro}
+          img="/carro.png"
           viagem="Carro Econômico"
           saida="Em Santiago"
           info="Com Hertz"
@@ -36,7 +36,7 @@ function Carros() {
         />
 
         <Cartao
-          img={Carro}
+          img="/carro.png"
           viagem="Carro Econômico"
           saida="Em Belo Horizonte"
           info="Com Movida"
@@ -46,7 +46,7 @@ function Carros() {
         />
 
         <Cartao
-          img={Carro}
+          img="/carro.png"
           viagem="Carro Econômico"
           saida="Em Miami"
           info="Com Florida Premium RentACar"
@@ -56,9 +56,9 @@ function Carros() {
         />
       </article>
       <Footer
-        imgi={Instagram}
+        imgi="/instagram.png"
         insta="@grupo6"
-        imge={Gmail}
+        imge="/gmail.png"
         email="grupo6@gmail.com"
         texto="Responsável pelo desenvolvimento: Grupo 06"
       />

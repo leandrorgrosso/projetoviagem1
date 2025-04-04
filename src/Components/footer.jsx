@@ -59,12 +59,13 @@ function Footer() {
           </div>
         </div>
         <div className="Bloco2img">
-          <img src="" alt="" />
+          {/* imagem removida */}
+          {/* <img src="" alt="" /> */}
         </div>
         <div className="Bloco3">
           <div className="BlocoSobreNos">
-            <p>
-              <div class="footer_social">
+            {/* <p> */}
+              <div className="footer_social">
                 <a href="https://www.instagram.com" target="_blank">
                   <i className="bx bxl-instagram"></i>
                 </a>
@@ -75,7 +76,7 @@ function Footer() {
                   <i className="bx bxl-twitter"></i>
                 </a>
               </div>
-            </p>
+            {/* </p> */}
             <p>Grupo 6</p>
           </div>
           <div className="BlocoReclamacoes">

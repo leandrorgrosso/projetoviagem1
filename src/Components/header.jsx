@@ -7,8 +7,8 @@ function App() {
     <>
       <header>
         <h1>VIAGENS ✈</h1>
-        <a href="http://localhost:5173/" target="_self" >
-        <img className="logo" src={Logo} />
+        <a href="http://localhost:5173/" target="_self">
+          <img className="logo" src={Logo} />
         </a>
       </header>
     </>

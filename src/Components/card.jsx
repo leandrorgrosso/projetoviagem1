@@ -1,7 +1,6 @@
-  import "./card.css";
+import "./card.css";
 
-  function card(props) {
-
+function card(props) {
   return (
     <>
       <div className="blocos">
@@ -14,10 +13,8 @@
           <h2>{props.valor}</h2>
         </nav>
       </div>
-
-      
     </>
   );
 }
 
-  export default card;
+export default card;

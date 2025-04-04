@@ -14,9 +14,9 @@ function Turismo() {
   return (
     <div>
       <Header />
-     
-        <NavBar />
-        <article className="blocoss">
+
+      <NavBar />
+      <article className="blocoss">
         <Cartao
           img={Coliseu}
           viagem="Coliseu"
